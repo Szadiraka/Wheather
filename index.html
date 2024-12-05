@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Прогноз погоды</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+        <div class="background">
+            <div class="content">
+                <h1>Прогноз погоды</h1>
+                <form id="weatherForm">
+                    <input type="text" id="cityInput" placeholder="Введите название города" required>
+                    <button type="submit">Получить прогноз</button>
+                </form>
+                <div id="weatherInfo" class="hidden">
+                    <h2 id="cityName"></h2>
+                    <p id="temperature"></p>
+                    <p id="description"></p>
+                    <p id="pressure"></p>
+                    <p id="wind_spead"></p>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+   
+    
+</body>
+</html>
