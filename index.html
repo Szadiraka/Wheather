@@ -12,9 +12,10 @@
             <div class="content">
                 <h1>Прогноз погоды</h1>
                 <form id="weatherForm">
-                    <input type="text" id="cityInput" placeholder="Введите название города" required>
+                    <input type="text" id="cityInput" placeholder="Введите название города" autocomplete="off" required>
                     <button type="submit">Получить прогноз</button>
                 </form>
+                <div id="suggestions" class="hidden"></div>
                 <div id="weatherInfo" class="hidden">
                     <h2 id="cityName"></h2>
                     <p id="temperature"></p>
